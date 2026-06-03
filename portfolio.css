@@ -290,6 +290,28 @@ h2 {
     height: 25px;
 }
 
+.skills span:nth-child(7)::before {
+    content: "";
+    background-image: url(./img/ia_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.skills span:nth-child(8)::before {
+    content: "";
+    background-image: url(./img/workspace_logo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
 
 .hero-image img {
     width: 100%;
@@ -309,13 +331,13 @@ h2 {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 .project-card {
     background: #111827;
     border-radius: 15px;
     overflow: hidden;
-    grid-column: 2;
 }
 
 .project-card img {
