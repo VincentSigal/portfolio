@@ -7,4 +7,12 @@ export let projects = [
         link_before: "img/Folh_avant.pdf",
         link_after: "https://www.folhfis.fr/",
     },
+    {
+        image: "img/trouve_ta_boite_projet.png",
+        title: "Projet Titre DWWM",
+        description: "Projet en cours de réalisation dans le cadre de la formation pour le titre professionnel de Développeur Web & Web mobile. Annuaire de boîtes de nuit et soirées dans l'Hérault.",
+        tags: ["HTML", "CSS", "JS", "Node.js"],
+        link_before: "img/trouve_ta_boite_projet.png",
+        link_after: "https://www.folhfis.fr/",
+    },
 ];

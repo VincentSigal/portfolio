@@ -259,18 +259,19 @@ h2 {
 
 .skills span:nth-child(4)::before {
     content: "";
-    background-image: url(img/github_icon.png);
+    background-image: url(img/node_js_logo.webp);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
+    margin-right: 5px;
     width: 25px;
     height: 25px;
 }
 
 .skills span:nth-child(5)::before {
     content: "";
-    background-image: url(img/wp_icon.png);
+    background-image: url(img/github_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -281,7 +282,7 @@ h2 {
 
 .skills span:nth-child(6)::before {
     content: "";
-    background-image: url(./img/figma_icon.png);
+    background-image: url(img/wp_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -292,7 +293,7 @@ h2 {
 
 .skills span:nth-child(7)::before {
     content: "";
-    background-image: url(./img/ia_logo.png);
+    background-image: url(./img/figma_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -302,6 +303,17 @@ h2 {
 }
 
 .skills span:nth-child(8)::before {
+    content: "";
+    background-image: url(./img/ia_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.skills span:nth-child(9)::before {
     content: "";
     background-image: url(./img/workspace_logo.webp);
     background-size: contain;
@@ -338,6 +350,8 @@ h2 {
     background: #111827;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card img {
@@ -346,6 +360,9 @@ h2 {
 
 .project-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .project-content h3 {
@@ -362,8 +379,9 @@ h2 {
 
 .tags {
     display: flex;
-    gap: 8px;
+    gap: 5px;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .tags span {
@@ -374,9 +392,7 @@ h2 {
     white-space: nowrap;
 }
 
-.tags span::before {
-    content: "";
-    background-image: url(img/wp_icon.png);
+.tags span:before {
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -385,10 +401,41 @@ h2 {
     height: 20px;
 }
 
+.tags .wordpress::before {
+    content: "";
+    background-image: url(/img/wp_icon.png);
+}
+
+.tags .html::before {
+    content: "";
+    background-image: url(/img/html_icon.png);
+}
+
+.tags .css::before {
+    content: "";
+    background-image: url(/img/css_icon.png);
+
+}
+
+.tags .js::before {
+    content: "";
+    background-image: url(img/js_icon.png);
+}
+
+.tags .nodejs::before {
+    content: "";
+    background-image: url(/img/node_js_logo.webp);
+}
+
 .project-links {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
+    margin-top: auto;
+}
+
+.projects-grid .project-card:nth-child(2) .project-links {
+    display: none;
 }
 
 .project-before-link {

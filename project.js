@@ -5,6 +5,15 @@ export function initProjects() {
     let projects_html = ``;
 
     projects.forEach(projet => {
+
+        const tagsHTML = projet.tags
+            .map(tag => `
+        <span class="${tag.toLowerCase().replace(".", "").replace(" ", "-")}">
+            ${tag}
+        </span>
+    `)
+            .join("");
+
         projects_html += `
 <div class="project-card">
                         <img src="${projet.image}" alt="Image du projet">
@@ -16,7 +25,7 @@ export function initProjects() {
                             </p>
 
                             <div class="tags">
-                                <span>${projet.tags}</span>
+                                ${tagsHTML}
                             </div>
                             <div class="project-links">
                                 <a class="project-before-link" href="${projet.link_before}"
