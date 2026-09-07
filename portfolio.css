@@ -293,7 +293,7 @@ h2 {
 
 .skills span:nth-child(7)::before {
     content: "";
-    background-image: url(./img/figma_icon.png);
+    background-image: url(img/wix_logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -304,7 +304,7 @@ h2 {
 
 .skills span:nth-child(8)::before {
     content: "";
-    background-image: url(./img/ia_logo.png);
+    background-image: url(./img/figma_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
@@ -314,6 +314,17 @@ h2 {
 }
 
 .skills span:nth-child(9)::before {
+    content: "";
+    background-image: url(./img/ia_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.skills span:nth-child(10)::before {
     content: "";
     background-image: url(./img/workspace_logo.webp);
     background-size: contain;
@@ -427,6 +438,11 @@ h2 {
     background-image: url(img/node_js_logo.webp);
 }
 
+.tags .wix::before {
+    content: "";
+    background-image: url(img/wix_logo.png);
+}
+
 .project-links {
     display: flex;
     flex-direction: column;
@@ -468,7 +484,7 @@ h2 {
 
 /* BLOC EXP & FORMATIONS */
 
-.main_content {
+/* .main_content {
     display: flex;
     gap: 1.5rem;
     padding: 2rem 0;
@@ -582,7 +598,7 @@ h2 {
     background: linear-gradient(45deg, #17ce1d, #abf871);
     position: absolute;
     left: -11px;
-}
+} */
 
 /* ABOUT */
 

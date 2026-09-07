@@ -15,4 +15,12 @@ export let projects = [
         link_before: "img/trouve_ta_boite_projet.png",
         link_after: "https://www.folhfis.fr/",
     },
+    {
+        image: "img/Refonte_1cafecheznous.png",
+        title: " Entreprise 1cafécheznous",
+        description: "Refonte en autonomie d'un site vitrine en parallèle de ma formation de Développeur Web. En cours de réalisation avec le CMS Wix",
+        tags: ["Wix"],
+        link_before: "https://1cafecheznous.fr",
+        link_after: "img/Refonte_1cafecheznous.png",
+    },
 ];
