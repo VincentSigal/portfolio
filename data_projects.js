@@ -18,9 +18,9 @@ export let projects = [
     {
         image: "img/Refonte_1cafecheznous.png",
         title: " Entreprise 1cafécheznous",
-        description: "Refonte en autonomie d'un site vitrine en parallèle de ma formation de Développeur Web. En cours de réalisation avec Wix",
+        description: "Refonte en autonomie d'un site vitrine en parallèle de ma formation de Développeur Web.",
         tags: ["Wix"],
-        link_before: "https://1cafecheznous.fr",
-        link_after: "img/Refonte_1cafecheznous.png",
+        link_before: "https://web.archive.org/web/20240229031633/https://www.1cafecheznous.fr/",
+        link_after: "https://www.1cafecheznous.fr/",
     },
 ];
